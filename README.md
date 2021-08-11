@@ -83,8 +83,8 @@ For more details, see Architecture paragraphe at the bottom of this page.
 
 OKT has been tested on:
 
-+ GO 1.15.x
-+ OperatorSDK version 1.5.0 (earlier version 1.1.0 tested too)
++ GO 1.15.10+ (below is a compilation bug with the io/fs module for testings)
++ OperatorSDK version 1.5.0 
 + Kubernetes 1.19 (1.18 should be ok too)
 + ... (To be completed)
 
