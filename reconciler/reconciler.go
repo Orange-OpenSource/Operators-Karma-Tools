@@ -15,9 +15,9 @@
 package reconciler
 
 import (
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
+	okterr "github.com/Orange-OpenSource/Operators-Karma-Tools/results"
 	"github.com/go-logr/logr"
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
-	okterr "gitlab.tech.orange/dbmsprivate/operators/okt/results"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"

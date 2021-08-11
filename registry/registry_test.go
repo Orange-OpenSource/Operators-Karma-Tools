@@ -22,7 +22,7 @@ import (
 	//	corev1 "k8s.io/api/core/v1"
 	//	meta "k8s.io/apimachinery/pkg/api/meta"
 	//	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	oktk8s "gitlab.tech.orange/dbmsprivate/operators/okt/resources/k8s"
+	oktk8s "github.com/Orange-OpenSource/Operators-Karma-Tools/resources/k8s"
 )
 
 func TestRegistryNew(t *testing.T) {

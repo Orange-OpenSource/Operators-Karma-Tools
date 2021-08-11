@@ -14,7 +14,7 @@
 
 package main
 
-import oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
+import oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
 
 const templateBody = `// {{ .ResourceName }} xx
 type {{ .ResourceName }} struct {

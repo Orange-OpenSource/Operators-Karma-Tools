@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	oktclients "gitlab.tech.orange/dbmsprivate/operators/okt/clients"
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
-	oktngvk "gitlab.tech.orange/dbmsprivate/operators/okt/tools/ngvk"
+	oktclients "github.com/Orange-OpenSource/Operators-Karma-Tools/clients"
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
+	oktngvk "github.com/Orange-OpenSource/Operators-Karma-Tools/tools/ngvk"
 
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 

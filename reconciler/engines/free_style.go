@@ -15,9 +15,9 @@
 package engines
 
 import (
+	oktreconciler "github.com/Orange-OpenSource/Operators-Karma-Tools/reconciler"
+	okterr "github.com/Orange-OpenSource/Operators-Karma-Tools/results"
 	"github.com/go-logr/logr"
-	oktreconciler "gitlab.tech.orange/dbmsprivate/operators/okt/reconciler"
-	okterr "gitlab.tech.orange/dbmsprivate/operators/okt/results"
 )
 
 // FreeStyleHook Defines the hook called by the engine at each reconciliation loop (after CR fetched on cluster)

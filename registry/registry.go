@@ -15,7 +15,7 @@
 package registry
 
 import (
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
 )
 
 // Reader provide read only access to a registry

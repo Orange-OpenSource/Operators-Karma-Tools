@@ -23,9 +23,9 @@ package engines
 import (
 	"fmt"
 
-	oktreconciler "gitlab.tech.orange/dbmsprivate/operators/okt/reconciler"
-	okterr "gitlab.tech.orange/dbmsprivate/operators/okt/results"
-	oktsm "gitlab.tech.orange/dbmsprivate/operators/okt/tools/statemachine"
+	oktreconciler "github.com/Orange-OpenSource/Operators-Karma-Tools/reconciler"
+	okterr "github.com/Orange-OpenSource/Operators-Karma-Tools/results"
+	oktsm "github.com/Orange-OpenSource/Operators-Karma-Tools/tools/statemachine"
 
 	"github.com/go-logr/logr"
 )

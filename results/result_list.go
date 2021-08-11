@@ -21,7 +21,7 @@ import (
 	"github.com/go-logr/logr"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
 )
 
 // opResInfo xx

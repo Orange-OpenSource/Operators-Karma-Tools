@@ -28,10 +28,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	oktregistry "gitlab.tech.orange/dbmsprivate/operators/okt/registry"
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
-	okterr "gitlab.tech.orange/dbmsprivate/operators/okt/results"
-	okttools "gitlab.tech.orange/dbmsprivate/operators/okt/tools/k8sapi"
+	oktregistry "github.com/Orange-OpenSource/Operators-Karma-Tools/registry"
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
+	okterr "github.com/Orange-OpenSource/Operators-Karma-Tools/results"
+	okttools "github.com/Orange-OpenSource/Operators-Karma-Tools/tools/k8sapi"
 )
 
 // BasicObject Elemantary implementation of a Reconciler only able to Create resource.

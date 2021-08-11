@@ -17,10 +17,10 @@ package k8s
 import (
 	"testing"
 
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
+	okterr "github.com/Orange-OpenSource/Operators-Karma-Tools/results"
+	okthash "github.com/Orange-OpenSource/Operators-Karma-Tools/tools/hash"
 	"github.com/stretchr/testify/require"
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
-	okterr "gitlab.tech.orange/dbmsprivate/operators/okt/results"
-	okthash "gitlab.tech.orange/dbmsprivate/operators/okt/tools/hash"
 	k8sres "k8s.io/api/apps/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	k8sclient "sigs.k8s.io/controller-runtime/pkg/client"

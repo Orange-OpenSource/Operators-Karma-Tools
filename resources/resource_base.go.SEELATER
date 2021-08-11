@@ -3,7 +3,7 @@ package resources
 import (
 	"errors"
 
-	oktclients "gitlab.tech.orange/dbmsprivate/operators/okt/clients"
+	oktclients "github.com/Orange-OpenSource/Operators-Karma-Tools/clients"
 
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	//"k8s.io/kubernetes/pkg/apis/apps

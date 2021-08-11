@@ -15,7 +15,7 @@
 package k8s
 
 import (
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	//"k8s.io/client-go/kubernetes/scheme"
 )

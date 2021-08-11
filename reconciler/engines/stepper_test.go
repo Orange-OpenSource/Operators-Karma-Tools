@@ -25,10 +25,10 @@ import (
 	//	meta "k8s.io/apimachinery/pkg/api/meta"
 	//	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
+	oktreconciler "github.com/Orange-OpenSource/Operators-Karma-Tools/reconciler"
+	okterr "github.com/Orange-OpenSource/Operators-Karma-Tools/results"
 	"github.com/go-logr/zapr"
 	"github.com/stretchr/testify/require"
-	oktreconciler "gitlab.tech.orange/dbmsprivate/operators/okt/reconciler"
-	okterr "gitlab.tech.orange/dbmsprivate/operators/okt/results"
 	"go.uber.org/zap"
 )
 

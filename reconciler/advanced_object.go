@@ -1,4 +1,3 @@
-// Copyright 2021 Orange SA
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,8 +14,8 @@
 package reconciler
 
 import (
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
-	okterr "gitlab.tech.orange/dbmsprivate/operators/okt/results"
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
+	okterr "github.com/Orange-OpenSource/Operators-Karma-Tools/results"
 )
 
 // AdvancedObject Implementation of the Advanced Reconciler Object based on the Reconciler

@@ -17,7 +17,7 @@ package main
 import (
 	"fmt"
 
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
 )
 
 const resourceStub = `
@@ -32,8 +32,8 @@ package controllers
 // {{.resTypeDescription}}
 
 import (
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
-	okthelpers "gitlab.tech.orange/dbmsprivate/operators/okt/resources/k8s"
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
+	okthelpers "github.com/Orange-OpenSource/Operators-Karma-Tools/resources/k8s"
 
 	k8sres "k8s.io/api/{{ .resVersion }}"
 	"k8s.io/apimachinery/pkg/runtime"

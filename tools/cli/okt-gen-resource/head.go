@@ -17,7 +17,7 @@ package main
 import (
 	"strings"
 
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
 )
 
 // GetHeadData xx
@@ -28,8 +28,8 @@ package controllers
 import (
 	appapi "{{ .opPath }}/api/{{ .opVersion }}"
 
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
-	okthash "gitlab.tech.orange/dbmsprivate/operators/okt/tools/hash"
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
+	okthash "github.com/Orange-OpenSource/Operators-Karma-Tools/tools/hash"
 
 	k8sclient "sigs.k8s.io/controller-runtime/pkg/client"
 )

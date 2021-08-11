@@ -17,7 +17,7 @@ package k8s
 import (
 	"errors"
 
-	okthash "gitlab.tech.orange/dbmsprivate/operators/okt/tools/hash"
+	okthash "github.com/Orange-OpenSource/Operators-Karma-Tools/tools/hash"
 	//"k8s.io/kubernetes/pkg/apis/apps
 )
 

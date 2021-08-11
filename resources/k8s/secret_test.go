@@ -18,9 +18,9 @@ import (
 	b64 "encoding/base64"
 	"testing"
 
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
+	okthash "github.com/Orange-OpenSource/Operators-Karma-Tools/tools/hash"
 	"github.com/stretchr/testify/require"
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
-	okthash "gitlab.tech.orange/dbmsprivate/operators/okt/tools/hash"
 	k8sres "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/runtime"

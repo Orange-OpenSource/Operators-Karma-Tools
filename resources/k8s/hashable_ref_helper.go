@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"sort"
 
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
-	okterr "gitlab.tech.orange/dbmsprivate/operators/okt/results"
-	okthash "gitlab.tech.orange/dbmsprivate/operators/okt/tools/hash"
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
+	okterr "github.com/Orange-OpenSource/Operators-Karma-Tools/results"
+	okthash "github.com/Orange-OpenSource/Operators-Karma-Tools/tools/hash"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 

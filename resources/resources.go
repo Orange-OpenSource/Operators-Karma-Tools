@@ -15,7 +15,7 @@
 package resources
 
 import (
-	okthash "gitlab.tech.orange/dbmsprivate/operators/okt/tools/hash"
+	okthash "github.com/Orange-OpenSource/Operators-Karma-Tools/tools/hash"
 	"k8s.io/apimachinery/pkg/runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )

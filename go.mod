@@ -1,4 +1,4 @@
-module gitlab.tech.orange/dbmsprivate/operators/okt
+module github.com/Orange-OpenSource/Operators-Karma-Tools
 
 go 1.13
 

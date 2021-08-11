@@ -29,12 +29,12 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	k8sclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	oktclient "gitlab.tech.orange/dbmsprivate/operators/okt/clients"
-	oktreconciler "gitlab.tech.orange/dbmsprivate/operators/okt/reconciler"
-	oktengines "gitlab.tech.orange/dbmsprivate/operators/okt/reconciler/engines"
-	oktres "gitlab.tech.orange/dbmsprivate/operators/okt/resources"
-	okthelpers "gitlab.tech.orange/dbmsprivate/operators/okt/resources/k8s"
-	okterr "gitlab.tech.orange/dbmsprivate/operators/okt/results"
+	oktclient "github.com/Orange-OpenSource/Operators-Karma-Tools/clients"
+	oktreconciler "github.com/Orange-OpenSource/Operators-Karma-Tools/reconciler"
+	oktengines "github.com/Orange-OpenSource/Operators-Karma-Tools/reconciler/engines"
+	oktres "github.com/Orange-OpenSource/Operators-Karma-Tools/resources"
+	okthelpers "github.com/Orange-OpenSource/Operators-Karma-Tools/resources/k8s"
+	okterr "github.com/Orange-OpenSource/Operators-Karma-Tools/results"
 )
 
 // ==== BEGINNING OF STUB (TO GENERATE WITH CLI COMMAND)
