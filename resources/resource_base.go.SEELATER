@@ -1,0 +1,85 @@
+package resources
+
+import (
+	"errors"
+
+	oktclients "gitlab.tech.orange/dbmsprivate/operators/okt/clients"
+
+	k8serrors "k8s.io/apimachinery/pkg/api/errors"
+	//"k8s.io/kubernetes/pkg/apis/apps
+)
+
+// ResourceBase A generic OKT resource base for any types (K8S or other) which implements the OKT Resource (not Mutable) interface.
+// Thus it can not be instancied as is but, instead, is dedicated to either be
+// implemented as a new Mutable type provinding the Mutations (with Default and with CR) functions,
+// or as a not mutable resource (Read-Only for example).
+// The point is, it does not implement the Mutable methods, so its Mutable counterpart should exists too....
+type ResourceBase struct {
+	oktclients.Client
+
+	// True by default, tell if yes or a call to SetOwnerReference modify Metadata with the owner or not
+	EnableOwnerReference bool
+
+	createObj bool // The object is not yet created
+
+	params map[string]string
+}
+
+// Blank assignement to check type
+var _ Params = &ResourceBase{}
+
+// SetData Set parameters data
+func (or *ResourceBase) SetData(params map[string]string) {
+	or.params = params
+}
+
+// GetData Set parameters data
+func (or *ResourceBase) GetData() map[string]string {
+	return or.params
+}
+
+// SetPeerClient The client for Get and CRUD operations on Peer object (if any)
+func (or *ResourceBase) SetPeerClient(client oktclients.Client) {
+	or.Client = client
+}
+
+// SyncFromPeer Try to get peer object which determines if it is a creation or not
+// The caller (typically the Reconciler) is in 3 possibles states regarding the resource:
+//     - It dont know if the resource exists on the cluster
+//     - It has already got an existing resource on the cluster and need a refresh
+//     - It is already informed that the resource doest not exists but ask again => NOTHING WILL BE DONE HERE
+func (or *ResourceBase) SyncFromPeer() error {
+	// Already done and a creation is required first ?
+	if or.createObj {
+		return nil
+	}
+
+	// Get peer
+	if err := or.Client.Get(); err != nil {
+		if !k8serrors.IsNotFound(err) {
+			return err
+		}
+		or.createObj = true // Not Found! It's a creation.
+	}
+	return nil
+}
+
+// IsCreation Tell if yes or no this entry designate an object to create on the Cluster
+func (or *ResourceBase) IsCreation() bool {
+	return or.createObj
+}
+
+// CreatePeer xx
+func (or *ResourceBase) CreatePeer() error {
+	if !or.createObj {
+		return errors.New("Peer is presumed yet existing on its end")
+	}
+
+	if err := or.Client.Create(); err != nil {
+		return err
+	}
+
+	or.createObj = false
+
+	return nil
+}

@@ -1,0 +1,77 @@
+================================================================================
+ISC
+================================================================================
+
+Component: go-spew
+License Text URL: https://github.com/davecgh/go-spew/blob/master/LICENSE
+Source Code: https://github.com/davecgh/go-spew/
+
+================================================================================
+Apache 2.0
+================================================================================
+
+Component: operator-sdk
+License Text URL: https://github.com/operator-framework/operator-sdk/blob/master/LICENSE
+Source Code: https://github.com/operator-framework/operator-sdk
+
+Component: kubernetes
+License Text URL: https://github.com/kubernetes/kubernetes/blob/master/LICENSE
+Source Code: https://github.com/kubernetes/kubernetes
+
+Component: aws-sdk-go
+License Text URL: https://github.com/aws/aws-sdk-go/blob/master/LICENSE
+Source Code: https://github.com/aws/aws-sdk-go/blob/main/LICENSE.txt
+
+Component: logr
+License Text URL: https://github.com/go-logr/logr/blob/master/LICENSE
+Source Code: https://github.com/go-logr/logr
+
+Component: zapr
+License Text URL: https://github.com/go-logr/zapr/blob/master/LICENSE
+Source Code: https://github.com/go-logr/zapr
+
+Component: controller-runtime
+License Text URL: https://github.com/kubernetes-sigs/controller-runtime/blob/master/LICENSE
+Source Code: https://github.com/kubernetes-sigs/controller-runtime
+
+Component: structured-merge-diff
+License Text URL: https://github.com/kubernetes-sigs/structured-merge-diff/blob/master/LICENSE
+Source Code: https://github.com/kubernetes-sigs/structured-merge-diff
+
+Component: klog
+License Text URL: https://github.com/kubernetes/klog/blob/main/LICENSE
+Source Code: https://github.com/kubernetes/klog
+
+Component: api
+License Text URL: https://github.com/kubernetes/api/blob/master/LICENSE
+Source Code: https://github.com/kubernetes/api
+
+Component: apimachinery
+License Text URL: https://github.com/kubernetes/apimachinery/blob/master/LICENSE
+Source Code: https://github.com/kubernetes/apimachinery
+
+Component: client-go
+License Text URL: https://github.com/kubernetes/client-go/blob/master/LICENSE
+Source Code: https://github.com/kubernetes/client-go
+
+
+================================================================================
+MIT
+================================================================================
+
+Component: ginko
+License Text URL: https://github.com/onsi/ginkgo/blob/master/LICENSE
+Source Code: https://github.com/onsi/ginkgo
+
+Component: gomega
+License Text URL: https://github.com/onsi/gomega/blob/master/LICENSE
+Source Code: https://github.com/onsi/gomega
+
+Component: testify
+License Text URL: http://github.com/stretchr/testify/blob/master/LICENSE
+Source Code: http://github.com/stretchr/testify
+
+Component: zap
+License Text URL: http://github.com/uber-go/zap/blob/master/LICENSE.txt
+Source Code: http://github.com/uber-go/zap
+
