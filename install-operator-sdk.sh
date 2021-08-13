@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RELEASE_VERSION=v1.5.0
+RELEASE_VERSION=v1.11.0
 
 if [ -n "${HTTP_PROXY}" ]
 then
