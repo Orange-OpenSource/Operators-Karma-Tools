@@ -8,7 +8,7 @@ OKT embeds several utilities or reconciliation technics found in some operators 
 
 OKT aims to bring some facilities (mainly a StateMachine utility) in the implementation of the application lifecycle beyond the "simple" first roll-out of resources (Phase 1 in the Capability Level diagram proposed by CoreOS/RedHat). So, OKT introduce the concept of a generic State Machine to drive an application’s lifecycle (see tools/statemachine/Readme.md).
 
-Please go directly to [USAGE](https://github.com/Orange-OpenSource/Operators-Karma-Tools#usage) if you don't need to know how it works.
+Please go directly to [USAGE](https://github.com/Orange-OpenSource/Operators-Karma-Tools#usage) if you don't need to know how it works or see an [implementation example](https://github.com/Orange-OpenSource/Operators-Karma-Tools#operators-implementations-using-okt).
 
 ## Architecture
 
