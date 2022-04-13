@@ -8,6 +8,7 @@ OKT embeds several utilities or reconciliation technics found in some operators 
 
 OKT aims to bring some facilities (mainly a StateMachine utility) in the implementation of the application lifecycle beyond the "simple" first roll-out of resources (Phase 1 in the Capability Level diagram proposed by CoreOS/RedHat). So, OKT introduce the concept of a generic State Machine to drive an application’s lifecycle (see tools/statemachine/Readme.md).
 
+Please go directly to [USAGE](https://github.com/Orange-OpenSource/Operators-Karma-Tools#usage) if you don't need to know how it works.
 
 ## Architecture
 
@@ -83,10 +84,9 @@ For more details, see Architecture paragraphe at the bottom of this page.
 
 OKT has been tested on:
 
-+ GO 1.16+ (below is a compilation bug with the io/fs module for testings)
-+ OperatorSDK version 1.11.0 
++ GO 1.17+ (below is a compilation bug with the io/fs module for testings)
++ OperatorSDK version 1.17+ 
 + Kubernetes 1.20 (1.18+ should be ok too)
-+ ... (To be completed)
 
 
 ## Usage
